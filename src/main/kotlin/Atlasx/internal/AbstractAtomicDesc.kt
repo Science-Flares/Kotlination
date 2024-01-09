@@ -1,4 +1,4 @@
-package coroutines.internal
+package Atlasx.internal
 
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.LockFreeLinkedListNode
@@ -6,7 +6,7 @@ import kotlinx.coroutines.internal.LockFreeLinkedListNode
  @InternalCoroutinesApi
  class AbstractAtomicDesc {
     @InternalCoroutinesApi
-    lateinit var abstractAtomicDesc:LockFreeLinkedListNode.AbstractAtomicDesc
+    lateinit var abstractAtomicDesc:LockFreeLinkedListNode
 
     init {
         abstractAtomicDesc

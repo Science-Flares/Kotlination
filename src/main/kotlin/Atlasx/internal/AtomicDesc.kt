@@ -1,10 +1,9 @@
-package coroutines.internal
+package Atlasx.internal
 
-import kotlinx.coroutines.internal.AtomicDesc
 
 @Suppress("UNREACHABLE_CODE")
 class AtomicDesc {
-    lateinit var atomicDesc:AtomicDesc
+    lateinit var atomicDesc: AtomicDesc
 
     init {
         atomicDesc.run {

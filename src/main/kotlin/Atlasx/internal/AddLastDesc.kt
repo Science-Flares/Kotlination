@@ -1,4 +1,4 @@
-package coroutines.internal
+package Atlasx.internal
 
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.LockFreeLinkedListNode
@@ -6,13 +6,11 @@ import kotlinx.coroutines.internal.LockFreeLinkedListNode
 @InternalCoroutinesApi
 class AddLastDesc {
     @InternalCoroutinesApi
-    lateinit var addLastDesc:LockFreeLinkedListNode.AddLastDesc<*>
+    lateinit var addLastDesc:LockFreeLinkedListNode
 
     init {
         addLastDesc.run {
-            this.node.run {
-            }
-            this.queue
+
         }
 
     }

@@ -1,4 +1,4 @@
-package coroutines.internal
+package Atlasx.internal
 
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.LockFreeLinkedListNode
@@ -6,12 +6,11 @@ import kotlinx.coroutines.internal.LockFreeLinkedListNode
 @InternalCoroutinesApi
 class RemoveFirstDesc {
     @InternalCoroutinesApi
-    lateinit var removeFirstDesc:LockFreeLinkedListNode.RemoveFirstDesc<*>
+    lateinit var removeFirstDesc:LockFreeLinkedListNode
 
     init {
         removeFirstDesc.run {
-            this.queue
-            this.result
+            // TODO:
         }
     }
 

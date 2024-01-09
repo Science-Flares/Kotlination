@@ -2,7 +2,7 @@
 
 package coroutines.selects
 
-import coroutines.internal.AtomicDesc
+import Atlasx.internal.AtomicDesc
 import kotlinx.coroutines.DisposableHandle
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.selects.SelectInstance
@@ -14,11 +14,8 @@ interface SelectInstance {
     @InternalCoroutinesApi
     fun main() {
         selectInstance.run {
-            this.completion
-            this.isSelected
-            this.disposeOnSelect( DisposableHandle {  })
-            this.performAtomicTrySelect(AtomicDesc::atomicDesc.call())
-            this.trySelect()
+            // TODO:
+//            this.trySelect()
         }
     }
 

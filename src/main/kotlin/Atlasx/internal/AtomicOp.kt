@@ -1,4 +1,4 @@
-package coroutines.internal
+package Atlasx.internal
 
 import kotlinx.coroutines.InternalCoroutinesApi
 import kotlinx.coroutines.internal.AtomicOp
@@ -11,7 +11,6 @@ class AtomicOp {
 
     init {
         atomicOp.run {
-            this.isDecided
 //            this.complete(,0)
 //            this.prepare()
 //            this.tryDecide()
